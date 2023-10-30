@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    background-color: #5a9f33a5;
+    padding: 32px;
+    margin-top: 32px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.main-title {
+    margin: 32px 0;
+}
+
+.title {
+    margin: 16px 0;
+}
